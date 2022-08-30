@@ -1,0 +1,12 @@
+{
+    "Musk": {
+        "name": "Elon Musk",
+        "planeID": "N628TS",
+        "planeICAO": "0xa835af"
+    },
+    "Arnault": {
+        "name": "Bernard Arnault",
+        "planeID": "F-GVMA",
+        "planeICAO": "0x395580"
+    }
+}
