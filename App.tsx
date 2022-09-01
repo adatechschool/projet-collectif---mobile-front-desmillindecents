@@ -5,9 +5,10 @@ import Header from './src/components/Header'
 
 export default function App() {
   return (
+
     <View style={styles.container}>
-      <View>
         <Header/>
+      <View>
         <Text style={{color: 'red'}}>Voilà mon nouveau texte</Text>
       </View>
       <Text>Open up App.tsx to start working on your app!</Text>
@@ -21,6 +22,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    
   },
 });

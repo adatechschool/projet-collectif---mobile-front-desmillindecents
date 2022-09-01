@@ -1,9 +1,10 @@
-import { StyleSheet, Image, View } from "react-native";
+import { TextInput, StyleSheet, Image, View } from "react-native";
 
 const Header = () => {
   return(
-    <View style= {{borderColor: 'red'}}>
-      <Image source={require('../../assets/logo.png')}/>
+    <View style={styles.header}>
+      <Image source={require('../../assets/logo.png')} style={{height:50, width:50}}/>
+      
     </View>
   );
 }
@@ -11,9 +12,12 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     header :{
-        color: '#000',
-        alignItems: 'center',
-        justifyContent: 'flex-start',
+      width: 500,
+      height:90,
+      backgroundColor:'pink',
+      alignItems:'center',
+      justifyContent:'flex-end',
+      
       }
 });
 
