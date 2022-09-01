@@ -3,6 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Header from './src/components/Header'
 import Footer from './src/components/Footer'
+import Map from './src/components/Map'
+
 
 export default function App() {
   return (
@@ -12,7 +14,7 @@ export default function App() {
       <View>
         <Text style={{color: 'red'}}>Voilà mon nouveau texte</Text>
       </View>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Map/>
       <StatusBar style="auto" />
       <Footer/>
     </View>
