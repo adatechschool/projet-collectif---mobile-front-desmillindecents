@@ -12,7 +12,7 @@ export default function App() {
     <View style={styles.container}>
         <Header/>
       <View>
-        <Text style={{color: 'red'}}>Voilà mon nouveau texte</Text>
+        <Text style={{color: 'red'}}>Bienvenue chez desmillindecents</Text>
       </View>
       <Map/>
       <StatusBar style="auto" />

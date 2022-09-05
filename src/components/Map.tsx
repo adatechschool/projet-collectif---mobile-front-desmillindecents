@@ -8,7 +8,7 @@ const map = () =>{
         <MapView style={styles.map}/>
       </View>
     );
-  }
+  };
 
   const styles = StyleSheet.create({
 
