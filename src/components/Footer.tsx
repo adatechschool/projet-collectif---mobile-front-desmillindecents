@@ -1,12 +1,16 @@
 import { StyleSheet, Text, Image, View } from "react-native";
+import {profilList} from './ProfilList';
 
 const Footer = () => {
   return(
     <View>
+    {
+    profilList.map((l) => (
         <View style={ styles.footer }>
-          <Image source={require('../../assets/Photo_profil_1.png')}/>
-          <Text>Name</Text>
-        </View>
+          <Image source={{uri:l.Image}}/>
+          <Text>{l.Name}</Text>
+        </View>)
+    )}
     </View>
   );
 }
