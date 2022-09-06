@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 import Header from './src/components/Header'
-import Footer from './src/components/Footer'
+import ProfilList from './src/components/ProfilList'
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
       </View>
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
-      <Footer/>
+      <ProfilList/>
     </View>
   );
 }
@@ -23,7 +23,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    
+    alignItems: 'center',   
   },
+   footerImage: {
+        height:70,
+        width:70,
+      }
 });
