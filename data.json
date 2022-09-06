@@ -1,12 +1,29 @@
 {
-    "Musk": {
-        "name": "Elon Musk",
-        "planeID": "N628TS",
-        "planeICAO": "0xa835af"
+    "people": {
+        "Musk": {
+            "name": "Elon Musk",
+            "planeType": "Gulfstream G650",
+            "planeID": "N628TS",
+            "planeICAO": "A835AF"
+        },
+        "Arnault": {
+            "name": "Bernard Arnault",
+            "planeType": "Bombardier GL7T",
+            "planeID": "F-GVMA",
+            "planeICAO": "395580"
+        },
+        "Woods": {
+            "name": "Oprah Winfrey",
+            "planeType": "Gulfstream G650",
+            "planeId": "N540W",
+            "planeICAO": "A6D9E0"
+        }
     },
-    "Arnault": {
-        "name": "Bernard Arnault",
-        "planeID": "F-GVMA",
-        "planeICAO": "0x395580"
+
+    "planeTypes": {
+        "Gulfstream G650":{
+        },
+        "Bombardier GL7T":{
+        }
     }
 }
