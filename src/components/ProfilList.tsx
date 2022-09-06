@@ -1,12 +1,16 @@
 import { StyleSheet, Text, Image, View } from "react-native";
+import {data} from './Data';
 
-const Footer = () => {
+const ProfilList = () => {
   return(
     <View>
+    {
+    data.map((l) => (
         <View style={ styles.footer }>
-          <Image source={require('../../assets/Photo_profil_1.png')}/>
-          <Text>Name</Text>
-        </View>
+          <Image source={{uri:l.Image}} style={ styles.Image }/>
+          <Text>{l.Name}</Text>
+        </View>)
+    )}
     </View>
   );
 }
@@ -19,7 +23,11 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         width: 500,
         height: 90,
+      },
+      Image: {
+        height:70,
+        width:70,
       }
 });
 
-export default Footer;
+export default ProfilList;
