@@ -8,7 +8,7 @@ export default function App() {
   return (
 
     <View style={styles.container}>
-        <Header/>
+      <Header/>
       <View>
         <Text style={{color: 'red'}}>Voilà mon nouveau texte</Text>
       </View>
