@@ -28,12 +28,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',   
   },
-<<<<<<< HEAD
 
-=======
    footerImage: {
         height:70,
         width:70,
       }
->>>>>>> ae766e924e4b475bf284dbf71e4c367c98838c20
 });
