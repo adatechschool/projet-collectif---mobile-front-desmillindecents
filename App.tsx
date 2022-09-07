@@ -2,6 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 import Header from './src/components/Header'
+import Footer from './src/components/Footer'
+import Map from './src/components/Map'
+
 import ProfilList from './src/components/ProfilList'
 
 export default function App() {
@@ -10,9 +13,9 @@ export default function App() {
     <View style={styles.container}>
       <Header/>
       <View>
-        <Text style={{color: 'red'}}>Voilà mon nouveau texte</Text>
+        <Text style={{color: 'red'}}>Bienvenue chez desmillindecents</Text>
       </View>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Map/>
       <StatusBar style="auto" />
       <ProfilList/>
     </View>
@@ -25,8 +28,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',   
   },
+<<<<<<< HEAD
+
+=======
    footerImage: {
         height:70,
         width:70,
       }
+>>>>>>> ae766e924e4b475bf284dbf71e4c367c98838c20
 });
