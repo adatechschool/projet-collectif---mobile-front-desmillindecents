@@ -4,12 +4,10 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from './src/components/Header'
 import Footer from './src/components/Footer'
 import Map from './src/components/Map'
-
 import ProfilList from './src/components/ProfilList'
 
 export default function App() {
   return (
-
     <View style={styles.container}>
       <Header/>
       <View>
@@ -17,7 +15,7 @@ export default function App() {
       </View>
       <Map/>
       <StatusBar style="auto" />
-      <ProfilList/>
+      <Footer/>
     </View>
   );
 }

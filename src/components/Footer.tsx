@@ -5,10 +5,10 @@ const Footer = () => {
     <View style={ styles.footer }>
         <View style={{ flexDirection: "row" }}>
           <View style={ styles.footerImageBlock }>
-            <Image source={require('../../assets/Photo_profil_1.png')} style={ styles.footerImage }/>  
+            <Image source={require('../../assets/photo_Musk.jpg')} style={ styles.footerImage }/>  
           </View>
           <View style={ styles.footerTextBlock }>      
-            <Text style={ styles.footerText }>Name</Text>
+            <Text style={ styles.footerText }>Elon Musk</Text>
           </View> 
         </View>
     </View>
@@ -38,12 +38,13 @@ const styles = StyleSheet.create({
       },
       footerImageBlock: {
         justifyContent: 'center',
-        height: 80,
+        height: 100,
         width: 80,
       },
       footerImage: {
         height:70,
         width:70,
+        borderRadius: 50,
       }
 });
 
