@@ -10,9 +10,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Header/>
-      <View>
+      {/* <View>
         <Text style={{color: 'red'}}>Bienvenue chez desmillindecents</Text>
-      </View>
+      </View> */}
       <Map/>
       <StatusBar style="auto" />
       <Footer/>
