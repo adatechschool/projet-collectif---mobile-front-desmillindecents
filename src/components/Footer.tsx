@@ -15,7 +15,6 @@ const Footer = () => {
   );
 }
 
-
 const styles = StyleSheet.create({
     footer :{
         backgroundColor: '#D9D9D9',
@@ -47,6 +46,5 @@ const styles = StyleSheet.create({
         borderRadius: 50,
       }
 });
-
 
 export default Footer;

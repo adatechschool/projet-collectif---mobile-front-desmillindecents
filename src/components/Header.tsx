@@ -5,7 +5,7 @@ const Header = () => {
     <View style={ styles.header }>
       <View style={{ flexDirection: "row" }}>
         <View style={ styles.headerImageBlock }>
-          <Image source={require('../../assets/logo.png')} style={styles.headerImage}/>
+          <Image source={require('../../assets/logo.png')} style={ styles.headerImage }/>
         </View>
         <View style={ styles.input }>
           <TextInput/>
@@ -17,11 +17,8 @@ const Header = () => {
 
 
 const styles = StyleSheet.create({
-    header :{
-      // alignItems:'center',
-      // justifyContent:'flex-end',      
+    header :{    
       backgroundColor: '#D9D9D9',
-      // alignItems: 'flex-start',
       justifyContent: 'center',
       width: 430,
       height: 110,
@@ -33,7 +30,6 @@ const styles = StyleSheet.create({
 
     headerImageBlock :{
       justifyContent: 'center',
-      // alignItems:'center',
       height: 100,
       width: 80,
     },
@@ -52,8 +48,6 @@ const styles = StyleSheet.create({
       width:250,
       height:40,
       marginTop: 40,
-      // justifyContent: 'center',
-      // alignItems:'center',
     }  
 });
 

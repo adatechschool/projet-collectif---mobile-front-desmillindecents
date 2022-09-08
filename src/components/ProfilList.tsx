@@ -15,7 +15,6 @@ const ProfilList = () => {
   );
 }
 
-
 const styles = StyleSheet.create({
     footer :{
         backgroundColor: '#D9D9D9',
