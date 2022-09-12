@@ -1,17 +1,34 @@
-import { StyleSheet, Text, Image, View } from "react-native";
+import { StyleSheet, Text, Image, View, TouchableOpacity } from "react-native";
+import React, { useState } from 'react'
 
 const Footer = () => {
+  let data = {
+    img: require('../../assets/photo_Musk.jpg'),
+    name: 'Elon Musk'
+  } 
+  const [person, setPerson] = useState(data)
+
   return(
-    <View style={ styles.footer }>
+    <TouchableOpacity 
+      style={ styles.footer }
+      onPress={()=> {
+        setPerson(
+          {
+            img: require('../../assets/photo_Arnault.jpg'),
+            name: 'Bernard Arnault'
+          }
+          )
+        console.log(person)
+      }}>
         <View style={{ flexDirection: "row" }}>
           <View style={ styles.footerImageBlock }>
-            <Image source={require('../../assets/photo_Musk.jpg')} style={ styles.footerImage }/>  
+            <Image source={person.img} style={ styles.footerImage }/>  
           </View>
           <View style={ styles.footerTextBlock }>      
-            <Text style={ styles.footerText }>Elon Musk</Text>
+            <Text style={ styles.footerText }>{ person.name }</Text>
           </View> 
         </View>
-    </View>
+    </TouchableOpacity>
   );
 }
 
